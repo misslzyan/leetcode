@@ -33,6 +33,7 @@ public:
       }
     }
 
+    /** foreach */
     std::vector<int> inorderTraversal2(TreeNode* root) {
       std::stack<TreeNode*> stack;
       std::vector<int> vec;
